@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/veillereact/static/css/main.427e6ac0.chunk.css",
+    "main.js": "/veillereact/static/js/main.e06373d2.chunk.js",
+    "main.js.map": "/veillereact/static/js/main.e06373d2.chunk.js.map",
+    "runtime-main.js": "/veillereact/static/js/runtime-main.d5caab39.js",
+    "runtime-main.js.map": "/veillereact/static/js/runtime-main.d5caab39.js.map",
+    "static/js/2.044ffbbb.chunk.js": "/veillereact/static/js/2.044ffbbb.chunk.js",
+    "static/js/2.044ffbbb.chunk.js.map": "/veillereact/static/js/2.044ffbbb.chunk.js.map",
+    "static/js/3.63ef101a.chunk.js": "/veillereact/static/js/3.63ef101a.chunk.js",
+    "static/js/3.63ef101a.chunk.js.map": "/veillereact/static/js/3.63ef101a.chunk.js.map",
+    "index.html": "/veillereact/index.html",
+    "static/css/main.427e6ac0.chunk.css.map": "/veillereact/static/css/main.427e6ac0.chunk.css.map",
+    "static/js/2.044ffbbb.chunk.js.LICENSE.txt": "/veillereact/static/js/2.044ffbbb.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/veillereact/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5caab39.js",
+    "static/js/2.044ffbbb.chunk.js",
+    "static/css/main.427e6ac0.chunk.css",
+    "static/js/main.e06373d2.chunk.js"
+  ]
+}
