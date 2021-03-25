@@ -1,11 +1,27 @@
+@font-face {
+  font-family: "varela";
+  src: url(./font/VarelaRound-Regular.ttf)
+}
+
+* {
+  font-family: "varela";
+}
+
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  margin: 0;
   background-color: #1e1e1e;
 }
 
-ol, ul {
+h1 {
+  color: #30fcf1;
+  text-align: center;
+
+}
+
+ol,
+ul {
   padding-left: 30px;
+  color: white;
 }
 
 .board-row:after {
@@ -14,38 +30,49 @@ ol, ul {
   display: table;
 }
 
-.status {
-  margin-bottom: 10px;
-}
+/* .status {
+  margin-bottom: 110px;
+} */
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background-color: transparent;
+  border: 2px solid #30fcf1;
   float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
+  font-size: 74px;
+  font-weight: lighter;
+  line-height: 110px;
+  height: 110px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 110px;
+  color: #e740a4;
+  text-shadow: white 0.5px 0.5px;
 }
 
 .square:focus {
   outline: none;
 }
 
-.kbd-navigation .square:focus {
-  background: #ddd;
-}
+/* .kbd-navigation .square:focus {
+  background: transparent;
+} */
 
 .game {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.game-info {
-  margin-left: 20px;
+/* .game-info {
+  margin-left: 1%;
+} */
+
+#root {
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-size: larger;
+  background-color: transparent;
+  color: white;
 }
