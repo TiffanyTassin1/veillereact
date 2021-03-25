@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "varela";
+    src: url(./font/VarelaRound-Regular.ttf)
+  }
+  
+  * {
+    font-family: "varela";
+  }
+  
+  body {
+    font-family: "varela";
+    margin: 0;
+    background-color: #1e1e1e;
+  }
+  
+  h1 {
+    color: #30fcf1;
+    text-align: center;
+  }
+  
+  ol,
+  ul {
+    padding-left: 30px;
+    color: white;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  /* .status {
+    margin-bottom: 110px;
+  } */
+  
+  .square {
+    background-color: transparent;
+    border: 2px solid #30fcf1;
+    float: left;
+    font-size: 74px;
+    font-weight: lighter;
+    line-height: 110px;
+    height: 110px;
+    padding: 0;
+    text-align: center;
+    width: 110px;
+    color: #e740a4;
+    text-shadow: white 0.5px 0.5px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  /* .kbd-navigation .square:focus {
+    background: transparent;
+  } */
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .game-info {
+    margin-left: 1%;
+  } */
+  
+  #root {
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: larger;
+    background-color: transparent;
+    color: white;
+  }
+  .game-info {
+      margin-left: 20px;
+  
+    }
