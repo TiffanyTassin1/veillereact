@@ -1,6 +1,7 @@
 @font-face {
   font-family: "varela";
   src: url(./font/VarelaRound-Regular.ttf)
+<<<<<<< HEAD
 }
 
 * {
@@ -8,13 +9,23 @@
 }
 
 body {
+=======
+
+}
+
+body {
+  font-family: "varela";
+>>>>>>> ac278ec9a3fe0381de6d455a96c7b7f8bd4deb4a
   margin: 0;
   background-color: #1e1e1e;
 }
 
 h1 {
   color: #30fcf1;
+<<<<<<< HEAD
   text-align: center;
+=======
+>>>>>>> ac278ec9a3fe0381de6d455a96c7b7f8bd4deb4a
 
 }
 
@@ -62,6 +73,7 @@ ul {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 /* .game-info {
   margin-left: 1%;
 } */
@@ -75,4 +87,8 @@ button {
   font-size: larger;
   background-color: transparent;
   color: white;
+=======
+.game-info {
+  margin-left: 20px;
+>>>>>>> ac278ec9a3fe0381de6d455a96c7b7f8bd4deb4a
 }
