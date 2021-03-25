@@ -1,10 +1,22 @@
+@font-face {
+  font-family: "varela";
+  src: url(./font/VarelaRound-Regular.ttf)
+
+}
+
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  font-family: "varela";
+  margin: 0;
   background-color: #1e1e1e;
 }
 
-ol, ul {
+h1 {
+  color: #30fcf1;
+
+}
+
+ol,
+ul {
   padding-left: 30px;
 }
 
